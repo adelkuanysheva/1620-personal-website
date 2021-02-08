@@ -1,6 +1,9 @@
 html {
     background-color: #FFE5B4; 
   }
+  body {
+    padding: 10px;
+  }
   h1 {
     color: #004700;
   }
