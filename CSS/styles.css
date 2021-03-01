@@ -18,8 +18,12 @@ html {
     padding: 10px;
   }
 
+  ul {
+    padding: 0;
+  }
+
   nav {
-    text-align: left;
+    text-align: center;
     position: fixed;
     top: 0;
     width: 400px;
