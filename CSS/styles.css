@@ -1,45 +1,58 @@
 html {
-    background-color: #E59500; 
+    background-color: #6e8783; 
   }
 
   p {
     font-family: 'Lexend Mega', sans-serif;
-    color: #02040F;
+    color: #334259;
+    padding: 10px;
   }
 
   p.about {
     border: 50px;
-    width: 600px;
+    display: inline;
+    color: #334259;
   }
 
-  li.menu {
+  .menu {
     display: inline;
     color: #002642;
-    padding: 10px;
+    padding: 20px;
   }
-
-  ul {
-    padding: 0;
-  }
-
+ 
   nav {
-    text-align: center;
+    width: 100%;
     position: fixed;
     top: 0;
-    width: 400px;
-    margin: 0;
-    padding: 0;
-    background-color: #e5dada;
+    background-color: #334259;
+  }
+
+  .navigation a {
+    color: #Edddd0;
+  }
+ 
+  .navigation a:hover {
+    color: #DB504a;
+  }
+
+  a:visited, a:link, a:active {
+    text-decoration: none;
   }
 
   body {
     font-family: 'Lexend Mega', sans-serif;
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    margin:0;
   }
 
   h1 {
-    color: #e5dada;
+    color: #E5E5DC;
     font-family: 'PT Serif', serif;
+    padding-left: 10px;
   }
 
   img {
@@ -51,4 +64,29 @@ html {
   .float {
     float: left;  
     margin: 0;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  footer {
+    padding: 6px;
+    background-color: #334259;
+    height: 40px;
+    color: #Edddd0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .sidebar {
+    width: 700px;
+    padding: 10px;
+    background-color: #Edddd0;
+    color: #334259;
+    width: fit-content; 
   }
