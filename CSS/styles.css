@@ -1,16 +1,13 @@
 html {
-    background-color: #6e8783; 
+    background-color: #Edddd0; 
   }
 
   p {
     font-family: 'Lexend Mega', sans-serif;
     color: #334259;
     padding: 10px;
-  }
-
-  p.about {
     border: 50px;
-    color: #334259;
+    text-align: left;
   }
 
   .menu {
@@ -46,6 +43,7 @@ html {
     height: 100vh;
     box-sizing: border-box;
     margin:0;
+    justify-content: left;
   }
 
   h1 {
@@ -78,9 +76,14 @@ html {
   }
 
   .sidebar {
-    width: 700px;
+    width: 400px;
     padding: 10px;
-    background-color: #Edddd0;
+    background-color: #6e8783;
     color: #334259;
-    width: fit-content; 
+  }
+
+  .content {
+    text-align: left;
+    justify-content: left;
+    margin-left: auto;
   }
